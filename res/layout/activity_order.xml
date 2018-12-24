@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffe46e">
+
+    <TextView
+        android:id="@+id/odr_tv0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your Choice "
+        android:textSize="30sp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/odr_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tick the box first before Select"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/odr_cb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/odr_tv2"
+            android:layout_marginLeft="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personal Interest"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/odr_spn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/odr_cb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/odr_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Necessary Items"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/odr_spn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/odr_btn1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="goOrder"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:text="OK" />
+
+</LinearLayout>

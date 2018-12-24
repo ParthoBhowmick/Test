@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bd"
+     android:layout_width="350dp"
+    android:layout_height="500dp"
+    android:orientation="vertical" >
+    
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/sd_btn_rang"
+        android:onClick="rangpur"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/sd_btn_raj"
+            android:onClick="rajshahi"
+            android:background="@android:color/transparent" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/sd_btn_mymrn"
+            android:onClick="mymensingh"
+            android:background="@android:color/transparent" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:onClick="sylhet"
+            android:id="@+id/sd_btn_sylhet"
+            android:background="@android:color/transparent" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/sd_btn_dha"
+        android:onClick="dhaka"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="60dp"
+            android:onClick="khulna"
+            android:id="@+id/sd_btn_khul"
+            android:background="@android:color/transparent" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:onClick="barisal"
+            android:id="@+id/sd_btn_barisal"
+            android:background="@android:color/transparent" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="27dp"
+            android:onClick="chittagong"
+            android:id="@+id/sd_btn_chitta"
+            android:background="@android:color/transparent" />
+
+    </LinearLayout>
+
+</LinearLayout>

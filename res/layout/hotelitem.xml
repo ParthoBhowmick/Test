@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/hoteltv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="4dp" 
+        android:layout_marginBottom="3dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/hoteltv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="4dp" 
+        android:layout_marginBottom="3dp"
+        android:textStyle="italic"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

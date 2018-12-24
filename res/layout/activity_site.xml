@@ -1,0 +1,87 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:padding="10dp"
+            android:text="Share About Travel"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/fet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Type text here"
+            android:inputType="textMultiLine" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/fbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="7dp"
+            android:onClick="search"
+            android:text="Click to chose image from disk" />
+
+        <ImageView
+            android:id="@+id/fvimg"
+            android:layout_width="300dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:src="@drawable/uppic" />
+
+        <LinearLayout
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/spnprivacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:background="@android:color/holo_blue_light"
+                android:layout_weight="1" />
+          
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/shrbtn"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"
+            android:onClick="sharePost"
+            android:text="Share Post"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/nxtbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:onClick="next"
+            android:text="View Homepage" />
+    </LinearLayout>
+
+</ScrollView>

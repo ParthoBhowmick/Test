@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sample Project</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_main_activity2">MainActivity2</string>
+    <string name="title_activity_order">Order</string>
+    <string name="title_activity_popular_places">PopularPlaces</string>
+    <string name="title_activity_emergency">Emergency</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_select_division">SelectDivision</string>
+    <string name="title_activity_personal_interest">PersonalInterest</string>
+    <string name="title_activity_personal_interest_clothes">PersonalInterestClothes</string>
+    <string name="title_activity_personal_interest_handicraft">PersonalInterestHandicraft</string>
+    <string name="title_activity_summer">Summer</string>
+    <string name="title_activity_chittagong">Chittagong</string>
+    <string name="title_activity_view_div">ViewDiv</string>
+    <string name="title_activity_view_place">ViewPlace</string>
+    <string name="title_activity_site">Site</string>
+    <string name="title_activity_display_list_view">DisplayListView</string>
+    <string name="title_activity_view_post_details">ViewPostDetails</string>
+    <string name="title_activity_kroy">Kroy</string>
+
+</resources>

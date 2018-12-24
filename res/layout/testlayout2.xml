@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="8dp"
+    android:orientation="vertical" >
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        >
+        
+        <ImageView
+        android:id="@+id/image2"
+         android:layout_width="40dp"
+            android:layout_height="50dp"
+        android:src="@drawable/ic_launcher" />
+        
+         
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:orientation="vertical" >
+        
+        <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Medium Text"
+        android:textColor="#00C"
+    	android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"  />
+
+                 <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+                  <TextView
+                      android:id="@+id/time2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginRight="10dp"
+                      android:text="Small Text"
+                      android:textAppearance="?android:attr/textAppearanceSmall"
+                      android:textColor="#F60"
+                      android:textStyle="bold" />
+                      
+            
+             <ImageView
+            android:id="@+id/privacyimg2"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_launcher" />
+                  
+    	  </LinearLayout>  
+    </LinearLayout>
+        
+    </LinearLayout>
+    
+        
+
+
+    <TextView
+        android:id="@+id/status2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="7dp"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/postimg2"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/love" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="20dp" >
+         
+
+         <TextView
+        android:id="@+id/like2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+        <ImageView
+        android:id="@+id/likeimg2"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/love" />
+        
+         <TextView
+        android:id="@+id/comment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+        <ImageView
+        android:id="@+id/commentimg2"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/com" />
+        
+         <TextView
+        android:id="@+id/share2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+        <ImageView
+        android:id="@+id/shareimg2"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:src="@drawable/share" />
+        
+    </LinearLayout>
+
+</LinearLayout>

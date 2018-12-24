@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dp"
+    android:background="#d3d3d3"
+    android:orientation="vertical" >
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        >
+        
+        <ImageView
+        android:id="@+id/image222"
+         android:layout_width="40dp"
+            android:layout_height="50dp"
+        android:src="@drawable/ic_launcher" />
+        
+         
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:orientation="vertical" >
+        
+        <TextView
+        android:id="@+id/name222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Medium Text"
+        android:textColor="#00C"
+    	android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"  />
+        
+                  <TextView
+                      android:id="@+id/time222"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginRight="10dp"
+                      android:text="Small Text"
+                      android:textAppearance="?android:attr/textAppearanceSmall"
+                      android:textColor="#F60"
+                      android:textStyle="bold" />
+                               
+    	  </LinearLayout>  
+    </LinearLayout>
+
+     <TextView
+         android:id="@+id/tvcom"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Comment"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+</LinearLayout>

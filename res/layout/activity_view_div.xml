@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/viewDivTv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Places"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textColor="#FFFF33"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.49"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/viewDivEt1"
+                android:hint="Search Places"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </EditText>
+
+            <Spinner
+                android:id="@+id/viewDivSpn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        
+        <Button
+            android:id="@+id/viewDivBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.61"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:onClick="yo"
+            android:text="Go" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/viewDivLv1"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

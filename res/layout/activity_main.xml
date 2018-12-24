@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/loginTv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textSize="44sp"
+        android:text="User Login"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0" 
+        android:background="#333"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/loginUserNameEt"
+        android:layout_width="match_parent" 
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_height="45dp"
+        android:background="#003"
+        android:hint="user name"
+        android:textColor="#FFF"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/loginUserPassEt"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="45dp"
+        android:background="#003"
+        android:textColor="#FFF"
+        android:hint="password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:background="#333"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:text="Log in"
+        android:onClick="userLogin"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+    
+     <TextView
+         android:id="@+id/loginTv2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:textSize="28sp"
+         android:layout_gravity="center"
+         android:textColor="#FF0"
+         android:textStyle="bold"
+         android:text="Don't have an account?" />
+    
+     <Button
+        android:id="@+id/loginSignBtn"
+        android:layout_width="125dp"
+        android:layout_height="56dp"
+        android:background="#333"
+        android:layout_marginTop="15dp"
+        android:textColor="#FF0"
+        android:textSize="27sp"
+        android:padding="10dp"
+        android:text="Sign up"
+        android:textStyle="bold"
+        android:onClick="userReg"
+        android:layout_gravity="center" />
+
+    
+
+</LinearLayout>
